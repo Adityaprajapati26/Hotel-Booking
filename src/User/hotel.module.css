@@ -1,0 +1,41 @@
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* gap:10px; */
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.card{
+    display: flex;
+   
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+.card>div{
+    width:50%;
+}
+img{
+    width:100%;
+    border:1px solid
+}
+.inner{
+    margin-left: 10px;
+}
+
+.inner>p{
+ text-align: center;
+   margin-top: 10px;
+   font-size: large;
+   font-family:'Popins';
+    display: flex;
+    /* border:1px solid rgb(60, 255, 0) */
+}
+.upper{
+    display: flex;
+    justify-content: space-around;
+    font-size: large;
+}
+.upper>select{
+    height:100px;
+    font-size: large;
+}
